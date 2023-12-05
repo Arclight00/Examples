@@ -1,0 +1,10 @@
+## RabbitMQ virtual host error when starting service
+sudo rabbitmqctl stop
+sudo rabbitmq-server -detached
+
+
+# stop server
+rabbitmqctl stop
+
+# start server
+sudo rabbitmq-server start

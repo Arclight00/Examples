@@ -1,0 +1,8 @@
+kubectl get pods --all-namespaces
+
+
+# For continuous logs
+kubectl logs -f vdb-consumer-service-6b548fd5c6-cllz6 -n uat
+
+# For one-time log
+kubectl logs vdb-consumer-service-6b548fd5c6-cllz6 -n uat
